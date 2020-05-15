@@ -16,6 +16,7 @@ public class Waypoints : MonoBehaviour
 
     void Start()
     {
+        FindObjectOfType<audioManager>().Play("breathing");
         agent = GetComponent<NavMeshAgent>();
         agent.destination = waypoints[i].position;
     }
