@@ -12,6 +12,9 @@ public class Sounds
     [Range(0f, 1f)]
     public float volume;
 
+    [Range(0f, 1f)]
+    public float spatialBlend;
+
     public bool loop;
 
     public bool mute;
