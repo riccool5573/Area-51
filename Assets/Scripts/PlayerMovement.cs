@@ -12,6 +12,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundDistance = 0.4f;
     [SerializeField] private LayerMask groundMask;
+
+    [SerializeField] private Light flashlight;
+
     private bool isGrounded;
     public bool isWalking = false;
     public bool isRunning = false;
@@ -49,11 +52,19 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            speed = 20f;
+            speed = 18f;
+        }
+        else if(Input.GetKey(KeyCode.LeftControl))
+        {
+            speed = 5f;
         }
         else
         {
-            speed = 12f;
+            speed = 10f;
+        }
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            flashlight.enabled = !flashlight.enabled;
         }
         TakeDamage();
     }
