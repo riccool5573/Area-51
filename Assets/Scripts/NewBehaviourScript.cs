@@ -21,13 +21,15 @@ public class NewBehaviourScript : MonoBehaviour
             FindObjectOfType<audioManager>().Play("walking");
             FindObjectOfType<audioManager>().Stop("running");
 
-            if (Input.GetKeyDown(KeyCode.W) && Input.GetKey(KeyCode.LeftShift))
-            {
-                FindObjectOfType<audioManager>().Play("running");
-                FindObjectOfType<audioManager>().Stop("walking");
-
-            }
         }
+
+        if (Input.GetKeyDown(KeyCode.W) && Input.GetKey(KeyCode.LeftShift))
+        {
+            FindObjectOfType<audioManager>().Play("running");
+            FindObjectOfType<audioManager>().Stop("walking");
+
+        }
+
         //else
         //{
         //    FindObjectOfType<audioManager>().Stop("walking");
