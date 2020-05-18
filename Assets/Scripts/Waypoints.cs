@@ -22,11 +22,23 @@ public class Waypoints : MonoBehaviour
     }
     void Update()
     {
-        if (Vector3.Distance(Player.position, transform.position) < 6 && !chase)
+        if (chase)
         {
             agent.destination = Player.position;
-            chase = true;
+           
+            
+            if(Vector3.Distance(Player.position, transform.position) > 25)
+            {
+                chase = false;
+                agent.speed = 3.5f;
+            }
+        }
+        if (Vector3.Distance(Player.position, transform.position) < 35 && !chase)
+        {
             FindObjectOfType<audioManager>().Play("noticed");
+            chase = true;
+            agent.speed = 15;
+
         }
         else if (!chase && agent.remainingDistance <= 0.5f)
         {
