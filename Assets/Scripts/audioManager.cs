@@ -2,7 +2,7 @@
 using System;
 using UnityEngine;
 
-public class audioManager : MonoBehaviour
+public class AudioManager : MonoBehaviour
 {
 
     public Sounds[] sound;
@@ -17,18 +17,25 @@ public class audioManager : MonoBehaviour
             s.source.mute = s.mute;
             s.source.volume = s.volume;
             s.source.loop = s.loop;
+            s.source.spatialBlend = s.spatialBlend;
         }
     }
 
     private void Start()
     {
-        Play("theme");
+        //Play("theme");
     }
 
     public void Play (string name)
     {
         Sounds s = Array.Find(sound, sounds => sounds.name == name);
         s.source.Play();
+
+        if (s == null)
+        {
+            Debug.LogWarning("iets mis met " + name);
+            return;
+        }
     }
     
 
