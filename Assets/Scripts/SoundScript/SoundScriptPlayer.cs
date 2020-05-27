@@ -13,20 +13,20 @@ public class SoundScriptPlayer : MonoBehaviour
     {
         if (!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.D))
         {
-            FindObjectOfType<audioManager>().Stop("walking");
-            FindObjectOfType<audioManager>().Stop("running");
+            FindObjectOfType<AudioManager>().Stop("walking");
+            FindObjectOfType<AudioManager>().Stop("running");
         }
         else if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D))
         {
-            FindObjectOfType<audioManager>().Play("walking");
-            FindObjectOfType<audioManager>().Stop("running");
+            FindObjectOfType<AudioManager>().Play("walking");
+            FindObjectOfType<AudioManager>().Stop("running");
 
         }
 
         if (Input.GetKeyDown(KeyCode.W) && Input.GetKey(KeyCode.LeftShift))
         {
-            FindObjectOfType<audioManager>().Play("running");
-            FindObjectOfType<audioManager>().Stop("walking");
+            FindObjectOfType<AudioManager>().Play("running");
+            FindObjectOfType<AudioManager>().Stop("walking");
 
         }
 
