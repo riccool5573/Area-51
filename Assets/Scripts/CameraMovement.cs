@@ -22,6 +22,30 @@ public class CameraMovement : MonoBehaviour
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+
+        //--------------------Peeking Around Corners-----------------------\\ 
+
+        if (Input.GetKey(KeyCode.Q))
+        {
+            transform.localRotation = Quaternion.Euler(xRotation, 0f, 25f);
+            transform.localPosition = new Vector3(-1f, 1.58f, 0f);
+        }
+
+        if (Input.GetKeyUp(KeyCode.Q))
+        {
+            transform.localPosition = new Vector3(0f, 1.58f, 0f);
+        }
+
+        if (Input.GetKey(KeyCode.E))
+        {
+            transform.localRotation = Quaternion.Euler(xRotation, 0f, -25f);
+            transform.localPosition = new Vector3(1f, 1.58f, 0f);
+        }
+
+        if (Input.GetKeyUp(KeyCode.E))
+        {
+            transform.localPosition = new Vector3(0f, 1.58f, 0f);
+        }
         player.Rotate(Vector3.up * mouseX);
     }
 }

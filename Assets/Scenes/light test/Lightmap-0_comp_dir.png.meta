@@ -64,7 +64,11 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
+    textureCompression: 2
+=======
     textureCompression: 0
+>>>>>>> 316f834668994f5fc0fc36a7b2911658aee1468f
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
