@@ -27,7 +27,7 @@ public class Door : MonoBehaviour
                 door.transform.position += Mathf.Floor(Time.time * 30) * temp;
             }
         }
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.C))
         {
 
             RaycastHit hit;
