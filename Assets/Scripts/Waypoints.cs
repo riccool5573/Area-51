@@ -10,7 +10,7 @@ public class Waypoints : MonoBehaviour
     private Transform[] waypoints;
     [SerializeField]
     private Transform Player;
-    private int i = 0;
+    private int i = 0; //rename waypointIndex
     private NavMeshAgent agent;
     private bool chase = false;
 
@@ -20,6 +20,7 @@ public class Waypoints : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.destination = waypoints[i].position;
     }
+
     void Update()
     {
         if (chase)
@@ -35,7 +36,15 @@ public class Waypoints : MonoBehaviour
         }
         if (Vector3.Distance(Player.position, transform.position) < 35 && !chase)
         {
+<<<<<<< HEAD
             //FindObjectOfType<AudioManager>().Play("noticed");
+=======
+<<<<<<< HEAD
+            //FindObjectOfType<AudioManager>().Play("noticed");
+=======
+            FindObjectOfType<audioManager>().Play("noticed");
+>>>>>>> 316f834668994f5fc0fc36a7b2911658aee1468f
+>>>>>>> 5cee2de6652090724bb82d0beaac85ed899e218c
             chase = true;
             agent.speed = 15;
 
@@ -45,18 +54,15 @@ public class Waypoints : MonoBehaviour
             if (i > waypoints.Length + 1)
             {
                 i = 0;
-               
-                agent.destination = waypoints[i].position;
-
+             
             }
             else
             {
                 i++;
-                agent.destination = waypoints[i].position;
+                
                 Debug.Log("done");
             }
+            agent.destination = waypoints[i].position;
         }
-
-
     }
 }
