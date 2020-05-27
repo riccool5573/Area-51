@@ -17,6 +17,7 @@ public class Waypoints : MonoBehaviour
 
     void Start()
     {
+        FindObjectOfType<audioManager>().Play("breathing");
         agent = GetComponent<NavMeshAgent>();
         agent.destination = waypoints[i].position;
     }
@@ -36,7 +37,11 @@ public class Waypoints : MonoBehaviour
         }
         if (Vector3.Distance(Player.position, transform.position) < 35 && !chase)
         {
+<<<<<<< HEAD
             //FindObjectOfType<AudioManager>().Play("noticed");
+=======
+            FindObjectOfType<audioManager>().Play("noticed");
+>>>>>>> 316f834668994f5fc0fc36a7b2911658aee1468f
             chase = true;
             agent.speed = 15;
 
