@@ -4768,6 +4768,11 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 192722912}
+    - target: {fileID: 8959890298803332014, guid: 007ca85dacb726447bb56a8699785d0b,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1507363472}
     - target: {fileID: 8959890298803332015, guid: 007ca85dacb726447bb56a8699785d0b,
         type: 3}
       propertyPath: m_Name
@@ -5426,7 +5431,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 631065952}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -49.477657, y: 1.061511, z: 2.6553445}
+  m_LocalPosition: {x: -123, y: 1.061511, z: 484}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1220672080}
@@ -14872,6 +14877,12 @@ CapsuleCollider:
   m_Height: 2.108181
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!195 &1507363472 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 8959890298803332013, guid: 007ca85dacb726447bb56a8699785d0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 512471111}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1507363474 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8959890298803332017, guid: 007ca85dacb726447bb56a8699785d0b,

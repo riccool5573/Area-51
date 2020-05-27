@@ -1,5 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.Design.Serialization;
+using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -11,55 +14,52 @@ public class Waypoints : MonoBehaviour
     [SerializeField]
     private Transform Player;
     private int i = 0; //rename waypointIndex
+    [SerializeField]
     private NavMeshAgent agent;
     private bool chase = false;
 
 
     void Start()
     {
-        FindObjectOfType<audioManager>().Play("breathing");
+        FindObjectOfType<AudioManager>().Play("breathing");
         agent = GetComponent<NavMeshAgent>();
-        agent.destination = waypoints[i].position;
+        agent.destination = new Vector3(UnityEngine.Random.Range(Player.transform.position.x - 10, Player.transform.position.x + 10.0f), 0, UnityEngine.Random.Range(Player.transform.position.z - 10, Player.transform.position.z + 10.0f));
     }
 
     void Update()
     {
+        UnityEngine.Debug.Log(agent.remainingDistance);
+        UnityEngine.Debug.Log(chase);
         if (chase)
         {
             agent.destination = Player.position;
-           
-            
-            if(Vector3.Distance(Player.position, transform.position) > 25)
+            UnityEngine.Debug.Log("chasing");
+
+
+            if (Vector3.Distance(Player.position, transform.position) > 35)
             {
                 chase = false;
                 agent.speed = 3.5f;
+                UnityEngine.Debug.Log("no longer chasing");
             }
         }
-        if (Vector3.Distance(Player.position, transform.position) < 35 && !chase)
+        else if (Vector3.Distance(Player.position, transform.position) < 25 && !chase)
         {
-<<<<<<< HEAD
+
+            UnityEngine.Debug.Log("chase");
             //FindObjectOfType<AudioManager>().Play("noticed");
-=======
-            FindObjectOfType<audioManager>().Play("noticed");
->>>>>>> 316f834668994f5fc0fc36a7b2911658aee1468f
+
+            FindObjectOfType<AudioManager>().Play("noticed");
+
             chase = true;
             agent.speed = 15;
 
         }
         else if (!chase && agent.remainingDistance <= 0.5f)
         {
-            if (i > waypoints.Length + 1)
-            {
-                i = 0;
-             
-            }
-            else
-            {
-                i++;
-                
-                Debug.Log("done");
-            }
-            agent.destination = waypoints[i].position;
+          
+           
+            agent.destination = new Vector3(UnityEngine.Random.Range(Player.transform.position.x -10, Player.transform.position.x  + 10.0f), 0, UnityEngine.Random.Range(Player.transform.position.z - 10, Player.transform.position.z + 10.0f)); 
         }
     }
 }
