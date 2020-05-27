@@ -25,13 +25,8 @@ public class SoundScriptPlayer : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.W) && Input.GetKey(KeyCode.LeftShift))
         {
-
             FindObjectOfType<AudioManager>().Play("running");
             FindObjectOfType<AudioManager>().Stop("walking");
-
-            FindObjectOfType<AudioManager>().Play("running");
-            FindObjectOfType<AudioManager>().Stop("walking");
-
 
         }
 
