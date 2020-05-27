@@ -9,6 +9,9 @@ public class EndGameButton : MonoBehaviour
     [SerializeField] private Camera camera;
     [SerializeField] private Transform Player;
 
+    [SerializeField] private GameObject winGameText;
+    private float timeDelay;
+
     void Start()
     {
         button = GameObject.FindGameObjectWithTag("Button");
@@ -30,11 +33,19 @@ public class EndGameButton : MonoBehaviour
                 Debug.Log(objectHit.tag);
                 if (objectHit.tag == "Button")
                 {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                    StartCoroutine(EndText());
+                    
                     //Application.Quit();
 
                 }
             }
         }
+    }
+
+    IEnumerator EndText()
+    {
+        winGameText.SetActive(true);
+        timeDelay = 5f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
