@@ -5,17 +5,11 @@ using UnityEngine;
 
 public class EndGameButton : MonoBehaviour
 {
-    private GameObject button;
     [SerializeField] private Camera camera;
     [SerializeField] private Transform Player;
 
     [SerializeField] private GameObject winGameText;
-    private float timeDelay;
-
-    void Start()
-    {
-        button = GameObject.FindGameObjectWithTag("Button");
-    }
+    private float timeDelay = 5f;
 
     // Update is called once per frame
     void Update()
@@ -42,10 +36,10 @@ public class EndGameButton : MonoBehaviour
         }
     }
 
-    IEnumerator EndText()
+    private IEnumerator EndText()
     {
         winGameText.SetActive(true);
-        timeDelay = 5f;
+        yield return new WaitForSeconds(timeDelay);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

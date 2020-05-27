@@ -1,26 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class OpenDoor : MonoBehaviour
+public class TextScript : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject Door;
-    private int i;
+    [SerializeField] private Text text;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        text.text = "Current Objective: Find The Big Red Button";
     }
 
     // Update is called once per frame
     void Update()
     {
-        while(i < 10){
-            Door.position.x -= 0.282;
-            i++;
-        }
+        
     }
-
-
 }
