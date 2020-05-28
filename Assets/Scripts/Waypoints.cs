@@ -17,6 +17,8 @@ public class Waypoints : MonoBehaviour
     [SerializeField]
     private NavMeshAgent agent;
     private bool chase = false;
+    [SerializeField]
+    private Animator anim;
 
 
     void Start()
@@ -39,8 +41,10 @@ public class Waypoints : MonoBehaviour
             if (Vector3.Distance(Player.position, transform.position) > 35)
             {
                 chase = false;
-                agent.speed = 3.5f;
+                agent.speed = 5;
                 UnityEngine.Debug.Log("no longer chasing");
+                anim.SetBool("isChasing", false);
+                GetDestination();
             }
         }
         else if (Vector3.Distance(Player.position, transform.position) < 25 && !chase)
@@ -50,16 +54,31 @@ public class Waypoints : MonoBehaviour
             //FindObjectOfType<AudioManager>().Play("noticed");
 
             FindObjectOfType<AudioManager>().Play("noticed");
-
             chase = true;
-            agent.speed = 15;
+            StartCoroutine(Anim());
+
 
         }
         else if (!chase && agent.remainingDistance <= 0.5f)
         {
-          
-           
-            agent.destination = new Vector3(UnityEngine.Random.Range(Player.transform.position.x -10, Player.transform.position.x  + 10.0f), 0, UnityEngine.Random.Range(Player.transform.position.z - 10, Player.transform.position.z + 10.0f)); 
+            GetDestination();
         }
+    }
+
+
+    IEnumerator Anim()
+    {
+        anim.SetBool("isRoaring", true);
+        agent.speed = 0;
+        yield return new WaitForSeconds(1);
+        agent.speed = 17;
+        anim.SetBool("isRoaring", false);
+        anim.SetBool("isChasing", true);
+
+    }
+
+    private void GetDestination()
+    {
+        agent.destination = new Vector3(UnityEngine.Random.Range(Player.transform.position.x - 10, Player.transform.position.x + 10.0f), 0, UnityEngine.Random.Range(Player.transform.position.z - 10, Player.transform.position.z + 10.0f));
     }
 }
