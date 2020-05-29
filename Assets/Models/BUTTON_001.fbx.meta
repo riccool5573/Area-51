@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Models/BUTTON_001.fbx.meta
 guid: 0c81465b2fed4374e98ecb65ac278c7c
+=======
+guid: 1d7c850ed53144eb6bd88ebb38beb411
+>>>>>>> 67ab04995dd6a3cafa0d1e29468d34355602ebaf:Assets/Models/placeholder shit/blocking.fbx.meta
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
