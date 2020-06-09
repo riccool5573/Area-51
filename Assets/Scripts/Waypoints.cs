@@ -19,16 +19,12 @@ public class Waypoints : MonoBehaviour
     private bool chase = false;
     [SerializeField]
     private Animator anim;
-    private bool isHiding;
-    [SerializeField]
-    private Hiding hiding;
+
 
     void Start()
     {
-        FindObjectOfType<AudioManager>().Play("breathing");
         agent = GetComponent<NavMeshAgent>();
         agent.destination = new Vector3(UnityEngine.Random.Range(Player.transform.position.x - 10, Player.transform.position.x + 10.0f), 0, UnityEngine.Random.Range(Player.transform.position.z - 10, Player.transform.position.z + 10.0f));
-      
     }
 
     void Update()
@@ -36,13 +32,8 @@ public class Waypoints : MonoBehaviour
        
         if (chase)
         {
-            if (!isHiding)
-                agent.destination = Player.position;
-            else
-            {
-                chase = false;
-                GetDestination();
-            }
+            agent.destination = Player.position;
+            
 
 
             if (Vector3.Distance(Player.position, transform.position) > 35)
@@ -56,17 +47,11 @@ public class Waypoints : MonoBehaviour
         }
         else if (Vector3.Distance(Player.position, transform.position) < 25 && !chase)
         {
-            isHiding = hiding.GetHiding();
-            if (!isHiding)
-            {
-                UnityEngine.Debug.Log("chase");
-                //FindObjectOfType<AudioManager>().Play("noticed");
 
-                FindObjectOfType<AudioManager>().Play("noticed");
-                chase = true;
-                StartCoroutine(Anim());
-            }
-            else GetDestination();
+            UnityEngine.Debug.Log("chase");
+            FindObjectOfType<AudioManager>().Play("noticed");
+            chase = true;
+            StartCoroutine(Anim());
 
 
         }
@@ -90,6 +75,6 @@ public class Waypoints : MonoBehaviour
 
     private void GetDestination()
     {
-        agent.destination = new Vector3(UnityEngine.Random.Range(Player.transform.position.x - 20, Player.transform.position.x + 20.0f), 0, UnityEngine.Random.Range(Player.transform.position.z - 20, Player.transform.position.z + 20.0f));
+        agent.destination = new Vector3(UnityEngine.Random.Range(Player.transform.position.x - 10, Player.transform.position.x + 10.0f), 0, UnityEngine.Random.Range(Player.transform.position.z - 10, Player.transform.position.z + 10.0f));
     }
 }

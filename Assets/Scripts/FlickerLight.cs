@@ -7,7 +7,6 @@ public class FlickerLight : MonoBehaviour
     private bool isflickering = false;
     private float timeDelay;
 
-
     void Update()
     {
         if (!isflickering)
@@ -19,13 +18,13 @@ public class FlickerLight : MonoBehaviour
     IEnumerator FlickeringLight()
     {
         isflickering = true;
-        this.gameObject.GetComponent<Light>().intensity = 2;
-        timeDelay = Random.Range(0.07f, 0.25f);
+        this.gameObject.GetComponent<Light>().intensity = 1.5f;
+        timeDelay = Random.Range(0.1f, 0.5f);
         yield return new WaitForSeconds(timeDelay);
         this.gameObject.GetComponent<Light>().intensity = 1;
-        timeDelay = Random.Range(0.07f, 0.25f);
+        timeDelay = Random.Range(0.1f, 0.5f);
         yield return new WaitForSeconds(timeDelay);
-        this.gameObject.GetComponent<Light>().intensity = 2;
+        this.gameObject.GetComponent<Light>().intensity = 1.5f;
         isflickering = false;
     }
 }

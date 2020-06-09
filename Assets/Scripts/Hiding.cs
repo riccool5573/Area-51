@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Hiding : MonoBehaviour
 {
@@ -9,17 +10,19 @@ public class Hiding : MonoBehaviour
     [SerializeField] private Transform Player;
     [SerializeField] private Transform teleportLocation;
     [SerializeField] private Transform teleportBackLocation;
+    [SerializeField] private Text getInLocker;
+    [SerializeField] private Text getOutLocker;
 
     private float timeDelay = 0.4f;
-    [SerializeField] private bool isHdiding = false;
+    [SerializeField] private bool isHiding = false;
 
     void Start()
     {
         locker = GameObject.FindGameObjectWithTag("locker");
-
+        getInLocker.gameObject.SetActive(false);
+        getOutLocker.gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.C))
@@ -40,26 +43,32 @@ public class Hiding : MonoBehaviour
                     Player.GetComponent<Collider>().enabled = false;
                     Player.transform.position = objectHit.transform.GetChild(57).position;
                     teleportBackLocation = objectHit.transform.GetChild(58);
-                    isHdiding = true;
-                }
 
+                    isHiding = true;
+                    if (isHiding == false)
+                    {
+                        return;
+                    }
+                    if (isHiding == true)
+                    {
+                        Player.transform.LookAt(teleportBackLocation);
+                        getOutLocker.gameObject.SetActive(true);
+                    }
+                }
             }
         }
-        else if (isHdiding == true)
+        else if (isHiding == true)
         {
             if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
             {
                 //StartCoroutine(TeleportBack());
                 Player.transform.position = teleportBackLocation.transform.position;
                 Player.GetComponent<Collider>().enabled = true;
-                isHdiding = false;
+                Player.transform.rotation = Quaternion.identity; // bugfix // 
+                getOutLocker.gameObject.SetActive(false);
+                isHiding = false;
             }
         }
-
-    }
-    public bool GetHiding()
-    {
-        return isHdiding;
     }
     //IEnumerator Hide()
     //{
@@ -80,6 +89,6 @@ public class Hiding : MonoBehaviour
     //    yield return new WaitForSeconds(timeDelay);
     //    Player.transform.position = teleportBackLocation.transform.position;
     //    locker.GetComponent<BoxCollider>().enabled = true;
-    //    isHdiding = false;
+    //    isHiding = false;
     //}
 }

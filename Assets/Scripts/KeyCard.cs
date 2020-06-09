@@ -7,6 +7,7 @@ public class KeyCard : MonoBehaviour
 {
     [SerializeField] private Text pickUpText;
     [SerializeField] private GameObject keyy;
+    [SerializeField] private Text objHaveKeyCardText;
     private bool pickUpAllowed;
     public bool haveKeyCard;
 
@@ -14,6 +15,7 @@ public class KeyCard : MonoBehaviour
     void Start()
     {
         pickUpText.gameObject.SetActive(false);
+        //objHaveKeyCardText.gameObject.SetActive(false);
         haveKeyCard = false;
     }
 
@@ -48,6 +50,7 @@ public class KeyCard : MonoBehaviour
     {
         keyy.SetActive(false);
         pickUpText.gameObject.SetActive(false);
+        //objHaveKeyCardText.gameObject.SetActive(true);
         haveKeyCard = true;
     }
 }

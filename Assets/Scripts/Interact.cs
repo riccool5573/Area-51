@@ -9,6 +9,7 @@ public class Interact : MonoBehaviour
     [SerializeField]
     private Camera camera;
     private GameObject door;
+    [SerializeField] private KeyCard keyCard;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +32,7 @@ public class Interact : MonoBehaviour
 
                 GameObject objectHit = hit.transform.gameObject;
 
-                if (objectHit.tag == "Scanner")
+                if (objectHit.tag == "Scanner" || objectHit.tag == "Locked Scanner" && keyCard.haveKeyCard)
                 {
 
                     door = objectHit;
