@@ -4674,17 +4674,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 0e37b12881c3eec438c48cc746287f7e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 91.809
+      value: 99.09
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0e37b12881c3eec438c48cc746287f7e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.1089664
+      value: -4.53
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0e37b12881c3eec438c48cc746287f7e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.465
+      value: -10.1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0e37b12881c3eec438c48cc746287f7e,
         type: 3}
@@ -14280,17 +14280,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 0e37b12881c3eec438c48cc746287f7e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 91.87
+      value: 99.151
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0e37b12881c3eec438c48cc746287f7e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.1089664
+      value: -4.53
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0e37b12881c3eec438c48cc746287f7e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.62
+      value: -9.255
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0e37b12881c3eec438c48cc746287f7e,
         type: 3}
@@ -22291,6 +22291,7 @@ MonoBehaviour:
   Player: {fileID: 192722912}
   agent: {fileID: 2144183693}
   anim: {fileID: 2144183697}
+  hiding: {fileID: 192722919}
 --- !u!195 &2144183693
 NavMeshAgent:
   m_ObjectHideFlags: 0
