@@ -27,7 +27,7 @@ public class Dooropen : MonoBehaviour
             if (Door.transform.position.z != -Offset)
             {
                 Vector3 temp = new Vector3(0, 0, -Offset);
-                Door.transform.position += Mathf.Floor(Time.time * 60) * temp;
+                Door.transform.position += Mathf.Floor(Time.time * 1) * temp;
                 StartCoroutine(Timer());
             }
         }
