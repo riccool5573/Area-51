@@ -1,4 +1,4 @@
-## [titel van jullie game]
+## [Iniquity Games]
 Project team:[jullie namen]
 
 Platform:
