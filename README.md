@@ -40,7 +40,7 @@ PC
    [Logboek]: <https://cdn.discordapp.com/attachments/708245934995144725/720939598636908664/logboek_mythe_sprint_1_en_2.pdf>
    [GameDesignDoc]: <https://cdn.discordapp.com/attachments/708245934995144725/720940318265966653/GDD.docx>
    [RetrospectiveVerslagen]: <https://cdn.discordapp.com/attachments/708245934995144725/720939177310552105/Werkproces_.pdf>
-   [ReviewVerslagen]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/ReviewVerslagen.pdf>
+   [ReviewVerslagen]: <https://cdn.discordapp.com/attachments/708245934995144725/720982072474468372/Sprint_Reviews_Verslag.pdf>
    [Prototype]: <https://www.mijnmytheprototype.nl>
    [Folder op teams]: <https://www.linknaarmijnfolderopteams.nl>
-   [AssetPlanning]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/AssetPlanning.pdf>
+   [AssetPlanning]: <https://cdn.discordapp.com/attachments/708245934995144725/720988342644113461/Asset_List_Mythe.pdf>
