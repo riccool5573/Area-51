@@ -38,7 +38,7 @@ PC
 
    [Backlog]: <https://trello.com/b/emP10mOQ/project-mythe>
    [Logboek]: <https://cdn.discordapp.com/attachments/708245934995144725/720939598636908664/logboek_mythe_sprint_1_en_2.pdf>
-   [GameDesignDoc]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/GameDesignDoc.pdf>
+   [GameDesignDoc]: <https://cdn.discordapp.com/attachments/708245934995144725/720940318265966653/GDD.docx>
    [RetrospectiveVerslagen]: <https://cdn.discordapp.com/attachments/708245934995144725/720939177310552105/Werkproces_.pdf>
    [ReviewVerslagen]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/ReviewVerslagen.pdf>
    [Prototype]: <https://www.mijnmytheprototype.nl>
