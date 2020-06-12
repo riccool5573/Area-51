@@ -1,8 +1,8 @@
-## [Iniquity Games]
-Project team:[jullie namen]
+## Iniquity Games
+Project team: Mateusz Abraham, Nanne Veldhuijzen van Zanten, Ricardo Boekestijn, Selina Kauffman, Sharon Damsma, Julian Olivares Hurtado, Kay Ruwiel
 
 Platform:
-[jullie platfom]
+PC
 
 ### Korte omschrijving van de game
 ...
