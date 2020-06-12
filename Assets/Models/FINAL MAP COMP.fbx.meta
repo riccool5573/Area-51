@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: 9347aa0b79e5c534881867fd03f01bd7
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceckpoint_room_unwrapped_big_doorway
+    second: {fileID: 2100000, guid: e9bfad099a30fe548b06072c60a6acdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceckpoint_room_unwrapped_checkpoint
+    second: {fileID: 2100000, guid: 482a7bbb6d63f154cb2dadabf8948740, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceckpoint_room_unwrapped_floornceiling
+    second: {fileID: 2100000, guid: 813e6ce1e804caa499aed1de0b1ab281, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceckpoint_room_unwrapped_lambert1
+    second: {fileID: 2100000, guid: ede69cd86e026764f9c86c484e1125c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceckpoint_room_unwrapped_room
+    second: {fileID: 2100000, guid: 2d78c95f3e0261549b72aea5dd4fa447, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gang_met_Surgery_Room_UV_Unwrap002_Default_Material
+    second: {fileID: 2100000, guid: 164041be9cc6fcf4ab5caf7dd3e6cdd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gang_met_Surgery_Room_UV_Unwrap002_lambert1
+    second: {fileID: 2100000, guid: 05f9325f2cc13ee4dbaa97718d5f0991, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gang_met_Surgery_Room_UV_Unwrap002_lambert12
+    second: {fileID: 2100000, guid: a543b5ea4ac389c4e88b741dd11e9965, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gang_met_Surgery_Room_UV_Unwrap002_lambert15
+    second: {fileID: 2100000, guid: e335af8fe8669c048aae91079caa32c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gang_met_Surgery_Room_UV_Unwrap002_lambert16
+    second: {fileID: 2100000, guid: 93f1587527bfcb4469613d4b10ef474c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gang_met_Surgery_Room_UV_Unwrap002_lambert17
+    second: {fileID: 2100000, guid: b90144b9a8d606d4eaf9b9d6fc410f51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gang_met_Surgery_Room_UV_Unwrap002_lambert22
+    second: {fileID: 2100000, guid: cae9fd8fba8e46f4986df479a60f5d54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Second_Part_of_map_lambert1
+    second: {fileID: 2100000, guid: d5f4729b9d4722448a363445acba5a3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Second_Part_of_map_lambert10
+    second: {fileID: 2100000, guid: f0fac7291a1f1e543a2dc36fac0017c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Second_Part_of_map_lambert11
+    second: {fileID: 2100000, guid: 6532ee635d94dfc46a4f1ba2bab3c333, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Second_Part_of_map_lambert2
+    second: {fileID: 2100000, guid: f4b13194391a2ab4f807a53b92de4b2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Second_Part_of_map_lambert3
+    second: {fileID: 2100000, guid: 496b3f0ffc13bbb4d9f739554de0792f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Second_Part_of_map_lambert9
+    second: {fileID: 2100000, guid: f0fc005872b4abd45a28c15deb5d9ca8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage_Room_UV_Unwrap001_lambert10
+    second: {fileID: 2100000, guid: b26c05160e5cb6e408743f181b6166f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storage_Room_UV_Unwrap001_lambert3
+    second: {fileID: 2100000, guid: 5de1709df65d5c6489bc820696b6e6ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: containment_wing_unwrapped_catwalk
+    second: {fileID: 2100000, guid: 96eb472c4d0905942823517a8999090c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: containment_wing_unwrapped_floor_n_ceiling
+    second: {fileID: 2100000, guid: 99c838b49252b4146a29996c396e7081, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: containment_wing_unwrapped_lambert1
+    second: {fileID: 2100000, guid: a18a1246eed455f47bbc1ead2e1b611b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: containment_wing_unwrapped_longwall
+    second: {fileID: 2100000, guid: 51873a8efb23c74428737610f1c408e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 548405ec2dab31f4a989d7ff91a45da7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: main_hallway_unwrapped_lambert1
+    second: {fileID: 2100000, guid: 5320343a2731fe446aa30712ab36f868, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: main_hallway_unwrapped_lambert10
+    second: {fileID: 2100000, guid: c97bf1f7278c7154c84864a1752125af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: main_hallway_unwrapped_lambert2
+    second: {fileID: 2100000, guid: 9c63c4f7f5eaba043924aba08f303352, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: main_hallway_unwrapped_lambert23
+    second: {fileID: 2100000, guid: bfef2afd69cb3204199122b156a5a853, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: main_hallway_unwrapped_lambert24
+    second: {fileID: 2100000, guid: a9b80cc788beb084890031b6f89690a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: main_hallway_unwrapped_lambert7
+    second: {fileID: 2100000, guid: 45d7e7a5fe214f64aae3f80b77eb9ee7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: main_hallway_unwrapped_lambert8
+    second: {fileID: 2100000, guid: f9720aa02a125ad42ba5ab3ecbb92a05, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 0
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
