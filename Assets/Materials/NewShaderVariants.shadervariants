@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewShaderVariants
+  m_Shaders:
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON _ALPHAPREMULTIPLY_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _ALPHAPREMULTIPLY_ON
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON _METALLICGLOSSMAP
+          _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON _METALLICGLOSSMAP
+          _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _METALLICGLOSSMAP _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON _NORMALMAP _PARALLAXMAP
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _NORMALMAP _PARALLAXMAP
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON _METALLICGLOSSMAP
+          _NORMALMAP _PARALLAXMAP
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON _NORMALMAP _PARALLAXMAP
+          _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _NORMALMAP _PARALLAXMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _NORMALMAP _PARALLAXMAP
+          _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 4
+      - keywords: SPOT
+        passType: 5
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: POINT
+        passType: 5
+      - keywords: POINT SHADOWS_CUBE SHADOWS_SOFT
+        passType: 5
+      - keywords: DIRECTIONAL _NORMALMAP
+        passType: 5
+      - keywords: SPOT _ALPHAPREMULTIPLY_ON
+        passType: 5
+      - keywords: DIRECTIONAL _ALPHAPREMULTIPLY_ON
+        passType: 5
+      - keywords: DIRECTIONAL _METALLICGLOSSMAP _NORMALMAP
+        passType: 5
+      - keywords: SPOT _METALLICGLOSSMAP _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 5
+      - keywords: DIRECTIONAL _METALLICGLOSSMAP _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 5
+      - keywords: DIRECTIONAL _NORMALMAP _PARALLAXMAP
+        passType: 5
+      - keywords: SPOT _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
+        passType: 5
+      - keywords: DIRECTIONAL _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
+        passType: 5
+      - keywords: SPOT _NORMALMAP _PARALLAXMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 5
+      - keywords: DIRECTIONAL _NORMALMAP _PARALLAXMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_CUBE
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHAPREMULTIPLY_ON
+        passType: 8
+      - keywords: SHADOWS_DEPTH _METALLICGLOSSMAP
+        passType: 8
+      - keywords: SHADOWS_DEPTH _METALLICGLOSSMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 8
+      - keywords: SHADOWS_DEPTH _PARALLAXMAP
+        passType: 8
+      - keywords: SHADOWS_DEPTH _METALLICGLOSSMAP _PARALLAXMAP
+        passType: 8
+      - keywords: SHADOWS_DEPTH _PARALLAXMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: _METALLICGLOSSMAP
+        passType: 11
+      - keywords: _METALLICGLOSSMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 11
+  - first: {fileID: 64, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_SPLIT_SPHERES
+        passType: 0
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: _SUNDISK_NONE
+        passType: 0
+      - keywords: _SUNDISK_SIMPLE
+        passType: 0
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9006, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10760, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 15100, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 15102, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0

@@ -8,6 +8,9 @@ TagManager:
   - Enemy
   - locker
   - Button
+  - Scanner
+  - Locked Door
+  - Locked Scanner
   layers:
   - Default
   - TransparentFX
