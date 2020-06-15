@@ -232,6 +232,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1356611579}
     m_Modifications:
+    - target: {fileID: -7667264478880077972, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: -4373340177170138073, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
     - target: {fileID: -4216859302048453862, guid: 66ae1c355ea6547cea95d1217a1c475f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -302,11 +312,41 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.7043064
       objectReference: {fileID: 0}
+    - target: {fileID: -3563540960884809572, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
     - target: {fileID: -927199367670048503, guid: 66ae1c355ea6547cea95d1217a1c475f,
         type: 3}
       propertyPath: m_Name
       value: Wall Monitor (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3100034125605687575, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: 3333450715610259578, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: 6705342805276959867, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: 6899585294965754115, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: 8999794117621186333, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66ae1c355ea6547cea95d1217a1c475f, type: 3}
 --- !u!4 &27573892 stripped
@@ -2291,7 +2331,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Monitor (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3100034125605687575, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: 3333450715610259578, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
     - target: {fileID: 6899585294965754115, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: 8999794117621186333, guid: 66ae1c355ea6547cea95d1217a1c475f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5000,6 +5055,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: -4373340177170138073, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
     - target: {fileID: -4216859302048453862, guid: 66ae1c355ea6547cea95d1217a1c475f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5080,6 +5140,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Monitor (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3333450715610259578, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: 6705342805276959867, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
     - target: {fileID: 6899585294965754115, guid: 66ae1c355ea6547cea95d1217a1c475f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6075,6 +6145,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: -4373340177170138073, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
     - target: {fileID: -4216859302048453862, guid: 66ae1c355ea6547cea95d1217a1c475f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6155,6 +6230,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Monitor (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3333450715610259578, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: 6705342805276959867, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
     - target: {fileID: 6899585294965754115, guid: 66ae1c355ea6547cea95d1217a1c475f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -7715,6 +7800,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1356611579}
     m_Modifications:
+    - target: {fileID: -7667264478880077972, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: -4373340177170138073, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
     - target: {fileID: -4216859302048453862, guid: 66ae1c355ea6547cea95d1217a1c475f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7785,11 +7880,41 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.7450398
       objectReference: {fileID: 0}
+    - target: {fileID: -3563540960884809572, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
     - target: {fileID: -927199367670048503, guid: 66ae1c355ea6547cea95d1217a1c475f,
         type: 3}
       propertyPath: m_Name
       value: Wall Monitor
       objectReference: {fileID: 0}
+    - target: {fileID: 3100034125605687575, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: 3333450715610259578, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: 6705342805276959867, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: 6899585294965754115, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: 8999794117621186333, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66ae1c355ea6547cea95d1217a1c475f, type: 3}
 --- !u!4 &1376757135 stripped
@@ -8927,7 +9052,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Monitor (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3100034125605687575, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: 3333450715610259578, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
     - target: {fileID: 6899585294965754115, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: 8999794117621186333, guid: 66ae1c355ea6547cea95d1217a1c475f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -9994,6 +10134,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1356611579}
     m_Modifications:
+    - target: {fileID: -7667264478880077972, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
     - target: {fileID: -4216859302048453862, guid: 66ae1c355ea6547cea95d1217a1c475f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10064,11 +10209,26 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.7043064
       objectReference: {fileID: 0}
+    - target: {fileID: -3563540960884809572, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
     - target: {fileID: -927199367670048503, guid: 66ae1c355ea6547cea95d1217a1c475f,
         type: 3}
       propertyPath: m_Name
       value: Wall Monitor (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3333450715610259578, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
+    - target: {fileID: 6899585294965754115, guid: 66ae1c355ea6547cea95d1217a1c475f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 172410b4929797f4fb30fd14228a8b54, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66ae1c355ea6547cea95d1217a1c475f, type: 3}
 --- !u!4 &1712229255 stripped
