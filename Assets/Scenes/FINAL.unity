@@ -566,6 +566,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801872089}
     m_Modifications:
+    - target: {fileID: -6588146291908751712, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -641,6 +646,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Surgery Bed UV Unwrap (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4846098457614073574, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db84ccf57b3de624c9d454bc52039818, type: 3}
 --- !u!4 &82878965 stripped
@@ -2026,7 +2036,7 @@ Transform:
   - {fileID: 1754312457}
   - {fileID: 575213958}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &330949844 stripped
 GameObject:
@@ -2396,6 +2406,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801872089}
     m_Modifications:
+    - target: {fileID: -9126599853286032560, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
+    - target: {fileID: -6588146291908751712, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
+    - target: {fileID: -4460026693259620466, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2685d3bcfa448634aaa8db90d6fffd8a, type: 2}
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2466,11 +2491,31 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1860879536950883073, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
     - target: {fileID: -927199367670048503, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_Name
       value: Surgery Bed UV Unwrap (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -487553313848303430, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4140c3e617a49044fbe91d2105dd631a, type: 2}
+    - target: {fileID: 2351952683477377415, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2fda1c9cd4c24154cb4d35e24ee25950, type: 2}
+    - target: {fileID: 4846098457614073574, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db84ccf57b3de624c9d454bc52039818, type: 3}
 --- !u!4 &444206051 stripped
@@ -2876,7 +2921,7 @@ Transform:
   m_LocalScale: {x: 2.7397528, y: 2.7397528, z: 2.7397528}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &563243505
 PrefabInstance:
@@ -2923,7 +2968,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 18849b51c2d9b0d43a068d8a0d64a196,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 18849b51c2d9b0d43a068d8a0d64a196,
         type: 3}
@@ -3469,6 +3514,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801872089}
     m_Modifications:
+    - target: {fileID: -9126599853286032560, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
+    - target: {fileID: -6588146291908751712, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
+    - target: {fileID: -4460026693259620466, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2685d3bcfa448634aaa8db90d6fffd8a, type: 2}
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3539,11 +3599,31 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1860879536950883073, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
     - target: {fileID: -927199367670048503, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_Name
       value: Surgery Bed UV Unwrap (8)
       objectReference: {fileID: 0}
+    - target: {fileID: -487553313848303430, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4140c3e617a49044fbe91d2105dd631a, type: 2}
+    - target: {fileID: 2351952683477377415, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2fda1c9cd4c24154cb4d35e24ee25950, type: 2}
+    - target: {fileID: 4846098457614073574, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db84ccf57b3de624c9d454bc52039818, type: 3}
 --- !u!4 &606689266 stripped
@@ -3597,7 +3677,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: e1250df194468054d811d2c287471614,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e1250df194468054d811d2c287471614,
         type: 3}
@@ -3881,7 +3961,7 @@ PrefabInstance:
     - target: {fileID: 530700188875551108, guid: 1a04b8f6d6dc756488d9dab517554998,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 530700188875551108, guid: 1a04b8f6d6dc756488d9dab517554998,
         type: 3}
@@ -4549,6 +4629,7 @@ Transform:
   - {fileID: 966193776}
   - {fileID: 606689266}
   - {fileID: 952202494}
+  - {fileID: 881655935}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4786,7 +4867,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 0c81465b2fed4374e98ecb65ac278c7c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0c81465b2fed4374e98ecb65ac278c7c,
         type: 3}
@@ -4835,22 +4916,37 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 801872089}
     m_Modifications:
+    - target: {fileID: -9126599853286032560, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
+    - target: {fileID: -6588146291908751712, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
+    - target: {fileID: -4460026693259620466, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2685d3bcfa448634aaa8db90d6fffd8a, type: 2}
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.76
+      value: -5.841114
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.08
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -47.14
+      value: 2.3746371
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
@@ -4860,22 +4956,22 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
@@ -4895,25 +4991,51 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.8229
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.8229
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 3.8229
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1860879536950883073, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
     - target: {fileID: -927199367670048503, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_Name
       value: Surgery Bed UV Unwrap
       objectReference: {fileID: 0}
+    - target: {fileID: -487553313848303430, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4140c3e617a49044fbe91d2105dd631a, type: 2}
+    - target: {fileID: 2351952683477377415, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2fda1c9cd4c24154cb4d35e24ee25950, type: 2}
+    - target: {fileID: 4846098457614073574, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db84ccf57b3de624c9d454bc52039818, type: 3}
+--- !u!4 &881655935 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
+    type: 3}
+  m_PrefabInstance: {fileID: 881655934}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &887419597
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5064,7 +5186,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 76454e9a6845cb749be0915fcff2eeec,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 76454e9a6845cb749be0915fcff2eeec,
         type: 3}
@@ -5275,6 +5397,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801872089}
     m_Modifications:
+    - target: {fileID: -9126599853286032560, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4140c3e617a49044fbe91d2105dd631a, type: 2}
+    - target: {fileID: -6588146291908751712, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4140c3e617a49044fbe91d2105dd631a, type: 2}
+    - target: {fileID: -4460026693259620466, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2685d3bcfa448634aaa8db90d6fffd8a, type: 2}
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5345,11 +5482,31 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1860879536950883073, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4140c3e617a49044fbe91d2105dd631a, type: 2}
     - target: {fileID: -927199367670048503, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_Name
       value: Surgery Bed UV Unwrap (6)
       objectReference: {fileID: 0}
+    - target: {fileID: -487553313848303430, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4140c3e617a49044fbe91d2105dd631a, type: 2}
+    - target: {fileID: 2351952683477377415, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2fda1c9cd4c24154cb4d35e24ee25950, type: 2}
+    - target: {fileID: 4846098457614073574, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4140c3e617a49044fbe91d2105dd631a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db84ccf57b3de624c9d454bc52039818, type: 3}
 --- !u!4 &952202494 stripped
@@ -5574,6 +5731,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801872089}
     m_Modifications:
+    - target: {fileID: -9126599853286032560, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
+    - target: {fileID: -6588146291908751712, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
+    - target: {fileID: -4460026693259620466, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2685d3bcfa448634aaa8db90d6fffd8a, type: 2}
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5644,11 +5816,31 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1860879536950883073, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
     - target: {fileID: -927199367670048503, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_Name
       value: Surgery Bed UV Unwrap (7)
       objectReference: {fileID: 0}
+    - target: {fileID: -487553313848303430, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4140c3e617a49044fbe91d2105dd631a, type: 2}
+    - target: {fileID: 2351952683477377415, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2fda1c9cd4c24154cb4d35e24ee25950, type: 2}
+    - target: {fileID: 4846098457614073574, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db84ccf57b3de624c9d454bc52039818, type: 3}
 --- !u!4 &966193776 stripped
@@ -6789,7 +6981,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: e1334b9e39069014da593a78fe6da362,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e1334b9e39069014da593a78fe6da362,
         type: 3}
@@ -6886,7 +7078,7 @@ Transform:
   m_LocalScale: {x: 2.7397528, y: 2.7397528, z: 2.7397528}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1215330743 stripped
 GameObject:
@@ -8334,7 +8526,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: e1334b9e39069014da593a78fe6da362,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e1334b9e39069014da593a78fe6da362,
         type: 3}
@@ -8579,6 +8771,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801872089}
     m_Modifications:
+    - target: {fileID: -9126599853286032560, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
+    - target: {fileID: -4460026693259620466, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2685d3bcfa448634aaa8db90d6fffd8a, type: 2}
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8649,11 +8851,26 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1860879536950883073, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
     - target: {fileID: -927199367670048503, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_Name
       value: Surgery Bed UV Unwrap (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -487553313848303430, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4140c3e617a49044fbe91d2105dd631a, type: 2}
+    - target: {fileID: 2351952683477377415, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2fda1c9cd4c24154cb4d35e24ee25950, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db84ccf57b3de624c9d454bc52039818, type: 3}
 --- !u!4 &1453466231 stripped
@@ -8818,7 +9035,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: db05f1059fb3610408d3977c292879c4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: db05f1059fb3610408d3977c292879c4,
         type: 3}
@@ -9038,7 +9255,7 @@ Transform:
   m_LocalScale: {x: 2.7397528, y: 2.7397528, z: 2.7397528}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1568115756
 PrefabInstance:
@@ -10354,6 +10571,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801872089}
     m_Modifications:
+    - target: {fileID: -9126599853286032560, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
+    - target: {fileID: -6588146291908751712, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
+    - target: {fileID: -4460026693259620466, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2685d3bcfa448634aaa8db90d6fffd8a, type: 2}
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10424,11 +10656,31 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1860879536950883073, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
     - target: {fileID: -927199367670048503, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_Name
       value: Surgery Bed UV Unwrap (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -487553313848303430, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4140c3e617a49044fbe91d2105dd631a, type: 2}
+    - target: {fileID: 2351952683477377415, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2fda1c9cd4c24154cb4d35e24ee25950, type: 2}
+    - target: {fileID: 4846098457614073574, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db84ccf57b3de624c9d454bc52039818, type: 3}
 --- !u!4 &1713854592 stripped
@@ -10482,7 +10734,7 @@ PrefabInstance:
     - target: {fileID: 1803475461637458492, guid: cdbcaabf32172e042a447c5b7f8371ef,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1803475461637458492, guid: cdbcaabf32172e042a447c5b7f8371ef,
         type: 3}
@@ -10717,7 +10969,7 @@ Transform:
   m_LocalScale: {x: 16.955513, y: 16.955513, z: 20.921406}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1742124090
 PrefabInstance:
@@ -12427,7 +12679,7 @@ Transform:
   m_LocalScale: {x: 0.04569174, y: 0.04569174, z: 0.04569174}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: -1.016, y: -0.666, z: -1.281}
 --- !u!1 &2018052429 stripped
 GameObject:
@@ -12575,6 +12827,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801872089}
     m_Modifications:
+    - target: {fileID: -9126599853286032560, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
+    - target: {fileID: -6588146291908751712, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
+    - target: {fileID: -4460026693259620466, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2685d3bcfa448634aaa8db90d6fffd8a, type: 2}
     - target: {fileID: -4216859302048453862, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12645,11 +12912,31 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1860879536950883073, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
     - target: {fileID: -927199367670048503, guid: db84ccf57b3de624c9d454bc52039818,
         type: 3}
       propertyPath: m_Name
       value: Surgery Bed UV Unwrap (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -487553313848303430, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4140c3e617a49044fbe91d2105dd631a, type: 2}
+    - target: {fileID: 2351952683477377415, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2fda1c9cd4c24154cb4d35e24ee25950, type: 2}
+    - target: {fileID: 4846098457614073574, guid: db84ccf57b3de624c9d454bc52039818,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fe9dea90357b2f438c2ca970d951f3c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db84ccf57b3de624c9d454bc52039818, type: 3}
 --- !u!4 &2050483495 stripped
