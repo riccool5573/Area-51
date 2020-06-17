@@ -66,10 +66,10 @@ public class PlayerMovement : MonoBehaviour
         {
             flashlight.enabled = !flashlight.enabled;
         }
-        TakeDamage();
+        //TakeDamage();
     }
 
-    void TakeDamage()
+    /*void TakeDamage()
     {
         if (Input.GetMouseButtonDown(0))
         {
@@ -80,5 +80,5 @@ public class PlayerMovement : MonoBehaviour
         {
             SceneManager.LoadScene("SampleScene");
         }
-    }
+    }*/
 }
