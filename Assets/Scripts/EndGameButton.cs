@@ -35,9 +35,6 @@ public class EndGameButton : MonoBehaviour
                 if (objectHit.tag == "Button")
                 {
                     StartCoroutine(EndText());
-                    //winGameText.SetActive(true);
-                    //Application.Quit();
-
                 }
             }
         }
@@ -50,6 +47,5 @@ public class EndGameButton : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Time.timeScale = 0f;
         endScreen.SetActive(true);
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
