@@ -5966,7 +5966,7 @@ PrefabInstance:
     - target: {fileID: -6960919238990774742, guid: a410765e5e04c6540a1e9e9173194c3b,
         type: 3}
       propertyPath: m_TagString
-      value: Scanner
+      value: Locked Scanner
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: a410765e5e04c6540a1e9e9173194c3b,
         type: 3}
@@ -7996,7 +7996,7 @@ PrefabInstance:
     - target: {fileID: -6960919238990774742, guid: a410765e5e04c6540a1e9e9173194c3b,
         type: 3}
       propertyPath: m_TagString
-      value: Scanner
+      value: Locked Scanner
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: a410765e5e04c6540a1e9e9173194c3b,
         type: 3}
@@ -10449,7 +10449,7 @@ PrefabInstance:
     - target: {fileID: -6960919238990774742, guid: a410765e5e04c6540a1e9e9173194c3b,
         type: 3}
       propertyPath: m_TagString
-      value: Scanner
+      value: Locked Scanner
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: a410765e5e04c6540a1e9e9173194c3b,
         type: 3}
@@ -13253,7 +13253,7 @@ PrefabInstance:
     - target: {fileID: -6960919238990774742, guid: a410765e5e04c6540a1e9e9173194c3b,
         type: 3}
       propertyPath: m_TagString
-      value: Scanner
+      value: Locked Scanner
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: a410765e5e04c6540a1e9e9173194c3b,
         type: 3}
