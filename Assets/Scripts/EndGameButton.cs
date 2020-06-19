@@ -10,6 +10,7 @@ public class EndGameButton : MonoBehaviour
     [SerializeField] private Transform Player;
 
     [SerializeField] private GameObject winGameText;
+    [SerializeField] private GameObject endScreen;
     private float timeDelay = 5f;
 
     void Start()
@@ -34,7 +35,7 @@ public class EndGameButton : MonoBehaviour
                 if (objectHit.tag == "Button")
                 {
                     StartCoroutine(EndText());
-                    
+                    //winGameText.SetActive(true);
                     //Application.Quit();
 
                 }
@@ -46,6 +47,9 @@ public class EndGameButton : MonoBehaviour
     {
         winGameText.SetActive(true);
         yield return new WaitForSeconds(timeDelay);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Cursor.lockState = CursorLockMode.None;
+        Time.timeScale = 0f;
+        endScreen.SetActive(true);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
