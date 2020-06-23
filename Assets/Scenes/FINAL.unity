@@ -2348,6 +2348,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: idle 1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: eba432176b78dc741a4241cc227ddc94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eba432176b78dc741a4241cc227ddc94, type: 3}
 --- !u!1 &202671334 stripped
