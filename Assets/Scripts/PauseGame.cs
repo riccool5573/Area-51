@@ -48,4 +48,9 @@ public class PauseGame : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("TitleScreen");
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }

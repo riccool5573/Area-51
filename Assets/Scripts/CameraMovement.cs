@@ -30,8 +30,7 @@ public class CameraMovement : MonoBehaviour
             transform.localRotation = Quaternion.Euler(xRotation, 0f, 25f);
             transform.localPosition = new Vector3(-1f, 1.58f, 0f);
         }
-
-        if (Input.GetKeyUp(KeyCode.Q))
+        else
         {
             transform.localPosition = new Vector3(0f, 1.58f, 0f);
         }
@@ -41,8 +40,7 @@ public class CameraMovement : MonoBehaviour
             transform.localRotation = Quaternion.Euler(xRotation, 0f, -25f);
             transform.localPosition = new Vector3(1f, 1.58f, 0f);
         }
-
-        if (Input.GetKeyUp(KeyCode.E))
+        else
         {
             transform.localPosition = new Vector3(0f, 1.58f, 0f);
         }
