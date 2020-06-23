@@ -2465,7 +2465,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202671334}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.18962859, y: 0.151681, z: 0.09261188}
@@ -9911,6 +9911,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 800314327324367834, guid: 71d40886a08df90429474fede5d647a2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ffd797163a0413c4d816b9efc60b4585, type: 2}
     - target: {fileID: 811832794505936391, guid: 71d40886a08df90429474fede5d647a2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9956,6 +9961,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 3723460783219353986, guid: 71d40886a08df90429474fede5d647a2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88b21a010ab54dd44a4bee1992d996eb, type: 2}
     - target: {fileID: 3734228679171937043, guid: 71d40886a08df90429474fede5d647a2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10046,6 +10056,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 7038023337306982456, guid: 71d40886a08df90429474fede5d647a2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c08bee597d5145d4eb396516258e6945, type: 2}
     - target: {fileID: 8147895518764158894, guid: 71d40886a08df90429474fede5d647a2,
         type: 3}
       propertyPath: m_StaticEditorFlags
